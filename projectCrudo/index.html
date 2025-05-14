@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kubic Burger</title>
+    <link rel="icon" href="./img/favicon.png" type="image/x-png">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+</head>
+<body>
+    <!-- icon hamburguesa -->
+    <header class="head flex">
+        <section class="boxHeaderImages flex">
+            <img src="./img/icons8-menu-burger-white.png" alt="" class="imgLogoBurger">
+            <img src="./img/logoMarca.jpg" alt="" class="imgLogo">
+        </section>
+        <section class="boxHeaderImages flex">
+            <img src="./img/iconsSearch.png" alt="" class="logoSearch">
+        </section>
+    </header>
+    <div class="sectionHorarios flex">
+        <section class="boxHorarios">
+            <section >
+                <h3 class="titleHorarios" id="show">En este momento estamos cerrados</h3>
+                <p class="textHorarios">Hacé click para consultar nuestros horarios</p>
+            </section>
+            <!--  -->
+            <dialog class="dialogBox" id="dialog">
+                <section class="boxImageAlert flex">
+                    <img src="./img/icons8-exclamation-50.png" alt="signo de alerta">
+                </section>
+                <h2 class="titleHorariosDialog">Horarios de atención</h2>
+                <div class="dialogList flex">
+                    <ul class="dialogListParent">
+                        <li class="itemDialogHorarios"><strong>Lunes: </strong>de 20:00PM a 24:00PM</li>
+                        <li class="itemDialogHorarios"><strong>Martes: </strong>de 20:00PM a 24:00PM</li>
+                        <li class="itemDialogHorarios"><strong>Miércoles: </strong>de 20:00PM a 24:00PM</li>
+                        <li class="itemDialogHorarios"><strong>Jueves: </strong>de 20:00PM a 24:00PM</li>
+                        <li class="itemDialogHorarios"><strong>Viernes: </strong>de 20:00PM a 24:00PM</li>
+                        <li class="itemDialogHorarios"><strong>Sábado: </strong>de 20:00PM a 24:00PM</li>
+                        <li class="itemDialogHorarios"><strong>Domingo: </strong>de 20:00PM a 24:00PM</li>
+                    </ul>
+                </div>
+                <section class="buttonDialogBox flex" id="hide">
+                    <button class="buttonDialog">Aceptar</button>
+                </section>
+            </dialog>
+        </section>
+    </div>
+    <main>
+        <div class="bannerBlack"></div>
+        <section class="sectionChoiseOptions">
+
+            <h2 class="titleSectionOptions">Categorías</h2>
+
+            <section class="file1 flex">
+
+                <div class="itemFila box1">
+                    <section class="contentBox1 flex">
+                        <h3 class="titleOpcion">HOT SALE LOMOS</h3>
+                        <p class="oferta">HASTA 29% OFF</p>
+                    </section>
+                </div>
+                <div class="itemFila box2">
+                    <section class="contentBox1 flex">
+                        <h3 class="titleOpcion titleModificado">PROMO BURGER (solo efectivo)</h3>
+                        <p class="oferta">HASTA 12% OFF</p>
+                    </section>
+                </div>
+                <div class="itemFila box3">
+                    <section class="contentBox1 flex">
+                        <h3 class="titleOpcion">HOT SALE LOMOS</h3>
+                    </section>
+                </div>
+            </section>
+
+        </section>
+    </main>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
