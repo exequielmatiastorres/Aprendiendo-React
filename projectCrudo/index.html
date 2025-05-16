@@ -9,46 +9,46 @@
     <link rel="stylesheet" href="./css/normalize.css">
 </head>
 <body>
-    <!-- icon hamburguesa -->
-    <header class="head flex">
+    <!-- navegación -->
+    <header class="navegacionPrincipal flex">
+
         <section class="boxHeaderImages flex">
             <img src="./img/icons8-menu-burger-white.png" alt="" class="imgLogoBurger">
             <img src="./img/logoMarca.jpg" alt="" class="imgLogo">
         </section>
+        <div class="boxSearch flex">
+            <input type="text" class="inputBusqueda" placeholder="Buscar Producto">
+            <button class="buttonSearch">X</button>
+        </div>
         <section class="boxHeaderImages flex">
             <img src="./img/iconsSearch.png" alt="" class="logoSearch">
         </section>
+
     </header>
+    
+
+
     <div class="sectionHorarios flex">
-        <section class="boxHorarios">
-            <section >
-                <h3 class="titleHorarios" id="show">En este momento estamos cerrados</h3>
-                <p class="textHorarios">Hacé click para consultar nuestros horarios</p>
-            </section>
-            <!--  -->
-            <dialog class="dialogBox" id="dialog">
-                <section class="boxImageAlert flex">
-                    <img src="./img/icons8-exclamation-50.png" alt="signo de alerta">
-                </section>
-                <h2 class="titleHorariosDialog">Horarios de atención</h2>
-                <div class="dialogList flex">
-                    <ul class="dialogListParent">
-                        <li class="itemDialogHorarios"><strong>Lunes: </strong>de 20:00PM a 24:00PM</li>
-                        <li class="itemDialogHorarios"><strong>Martes: </strong>de 20:00PM a 24:00PM</li>
-                        <li class="itemDialogHorarios"><strong>Miércoles: </strong>de 20:00PM a 24:00PM</li>
-                        <li class="itemDialogHorarios"><strong>Jueves: </strong>de 20:00PM a 24:00PM</li>
-                        <li class="itemDialogHorarios"><strong>Viernes: </strong>de 20:00PM a 24:00PM</li>
-                        <li class="itemDialogHorarios"><strong>Sábado: </strong>de 20:00PM a 24:00PM</li>
-                        <li class="itemDialogHorarios"><strong>Domingo: </strong>de 20:00PM a 24:00PM</li>
-                    </ul>
-                </div>
-                <section class="buttonDialogBox flex" id="hide">
-                    <button class="buttonDialog">Aceptar</button>
-                </section>
-            </dialog>
+        <section >
+            <h3 class="titleHorarios" id="show">En este momento estamos cerrados</h3>
+            <p class="textHorarios">Hacé click para consultar nuestros horarios</p>
         </section>
+        <nav class="barraNavegacion">
+            <section class="barraNavegacionItems">
+                <!-- logo casa - info - ubicación - instagram -->
+                 <a href="">Inicio</a>
+                 <a href="">Información</a>
+                 <a href="">ubicación</a>
+                 <a href="">Instagram</a>
+            </section>
+            <section class="barraNavegacinItems">
+                <a href=""><h3>¡Quiero una tiena así para mi emprendimiento!</h3></a>
+            </section>
+        </nav>
+        
+        <script src="index.js"></script>
     </div>
-    <main>
+    <!-- <main>
         <div class="bannerBlack"></div>
         <section class="sectionChoiseOptions">
 
@@ -57,10 +57,12 @@
             <section class="file1 flex">
 
                 <div class="itemFila box1">
-                    <section class="contentBox1 flex">
-                        <h3 class="titleOpcion">HOT SALE LOMOS</h3>
-                        <p class="oferta">HASTA 29% OFF</p>
-                    </section>
+                    <a href="HotSaleLomos.html">
+                        <section class="contentBox1 flex">
+                            <h3 class="titleOpcion">HOT SALE LOMOS</h3>
+                            <p class="oferta">HASTA 29% OFF</p>
+                        </section>
+                    </a>
                 </div>
                 <div class="itemFila box2">
                     <section class="contentBox1 flex">
@@ -76,9 +78,29 @@
             </section>
 
         </section>
-    </main>
+    </main> -->
 
 
     <script src="./app.js"></script>
 </body>
 </html>
+
+<!-- 
+
+sintaxis de BEM
+
+bloque
+
+bloque__elemento
+bloque__elemento--modificador
+
+example
+
+.card
+.card__image
+.card__description
+
+.card__button--success,
+.card__button-back
+
+-->

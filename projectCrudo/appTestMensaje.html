@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Enviar WhatsApp Personalizado</title>
+</head>
+<body>
+
+<label for="opcion">Selecciona una opción:</label>
+<select id="opcion">
+  <option value="consulta_producto_A">Consulta sobre el Producto A</option>
+  <option value="soporte_tecnico">Solicitar soporte técnico</option>
+  <option value="informacion_envio">Información sobre el envío</option>
+</select>
+<br><br>
+<button onclick="generarEnlaceWhatsApp()">Enviar WhatsApp</button>
+<br><br>
+<div id="enlaceWhatsApp"></div>
+
+<script>
+function generarEnlaceWhatsApp() {
+  const numeroTelefono = "+543512510282"; // Reemplaza con tu número
+  const seleccion = document.getElementById("opcion").value;
+  let mensaje = "";
+
+  switch (seleccion) {
+    case "consulta_producto_A":
+      mensaje = "Hola, quiero consultar sobre el Producto A.";
+      break;
+    case "soporte_tecnico":
+      mensaje = "Necesito ayuda con soporte técnico.";
+      break;
+    case "informacion_envio":
+      mensaje = "Me gustaría saber información sobre el envío.";
+      break;
+    default:
+      mensaje = "Hola, tengo una consulta.";
+  }
+
+  // Codificar el mensaje para la URL
+  const mensajeCodificado = encodeURIComponent(mensaje);
+  const enlace = `https://wa.me/${numeroTelefono}?text=${mensajeCodificado}`;
+
+  // Mostrar el enlace generado (opcional)
+  document.getElementById("enlaceWhatsApp").innerHTML = `<a href="${enlace}" target="_blank">Chatear por WhatsApp</a>`;
+
+  // Redirigir directamente al enlace (opcional, en lugar de mostrarlo)
+  // window.location.href = enlace;
+}
+</script>
+
+</body>
+</html>

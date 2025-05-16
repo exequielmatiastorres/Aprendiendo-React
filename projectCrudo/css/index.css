@@ -3,11 +3,8 @@
     --e-global-color-secondary: #ffd082;
     --e-global-color-third: #000;
     --botonDialog:#dc3545;
-
 }
-
 /*GLOBALES*/
-
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -22,19 +19,14 @@ body {
     padding: 0px;
     margin: 0px;
 }
-
 a {
     text-decoration: none;
-    color: #000;
 }
-
-
 h1, h2, h3 {
     font-family: sans-serif;
     font-weight: 300;
     text-align: center;
 }
-
 h1 {
     font-size: 3.8rem;
 }
@@ -47,7 +39,6 @@ h3 {
 h4 {
     font-size: 2.6rem;
 }
-
 .flex {
     display: flex;
 }
@@ -61,9 +52,10 @@ li {
 }
 
 
+
 /* header */
 
-.head {
+.navegacionPrincipal {
     height: 5rem;
     background-color: var(--e-global-color-primary);
     justify-content: space-between;
@@ -89,6 +81,99 @@ li {
 .logoSearch {
     height: 3rem;
 }
+
+/* barra de busqueda */
+
+.barraBusqueda {
+    background-color: #c90000;
+    width: 100%;
+    height: 5rem;
+    justify-content: end;
+}
+
+.inputBusqueda {
+    color: #000;
+    height: 4rem;
+    border-radius: 0.8rem;
+    width: 100%;
+    padding-left: 1rem;
+    
+}
+
+.boxSearch {
+    position: relative;
+    width: 30rem;
+    align-items: center;
+    display: none;
+}
+
+.buttonSearch {
+    height: 3.5rem;
+    font-weight: 500;
+    font-size: 2rem;
+    border: none;
+    border-left: 1px solid #898989;
+    right: 0;
+    position: absolute;
+    margin-right: 1rem;
+    background-color: #FFF;
+}
+
+.searchTest{ 
+    align-items: center;
+    display: flex;
+}
+
+.logoSearch {
+    margin-right: 1rem
+}
+
+
+
+
+/* BARAA DE NAVEGACION Lateral*/
+
+.barraNavegacion {
+    flex-direction: column;
+    width: 25rem;
+    height: 93.4vh;
+    justify-content: space-between;
+    background-color: #000;
+    display:none;
+}
+
+.barraNavegacionItems {
+    flex-direction: column;
+    margin-top: 2rem;
+    
+}
+
+.itemNav {
+    color: #898989;
+    width: 25rem;
+    display: inline-block;
+    margin: 0px;
+    padding-left: 2rem;
+    margin: 1rem 0rem;
+} 
+
+.itemNav a {
+    color: #898989;
+}
+
+.enlaceDeItem:hover {
+    background-color: red;
+}
+
+.titleNavegacion {
+    color: #FFF;
+    background-color: #ff7c7c;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0px;
+    height: 8rem;
+}
+
 
 /* seccion horarios */
 
@@ -240,3 +325,15 @@ li {
     background-image: url(../img/burgerSola.jpg);
     background-size: cover; 
 }
+
+
+
+
+
+
+
+
+
+
+
+
