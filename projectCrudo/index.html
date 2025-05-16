@@ -9,33 +9,43 @@
     <link rel="stylesheet" href="./css/normalize.css">
 </head>
 <body>
-    <!-- navegación -->
-    <header class="navegacionPrincipal flex">
 
-        <section class="boxHeaderImages flex">
-            <img src="./img/icons8-menu-burger-white.png" alt="" class="imgLogoBurger">
-            <img src="./img/logoMarca.jpg" alt="" class="imgLogo">
+    <!-- navegación sellado -->
+    <header class="navFirst flex">
+        <section class="navFirst__elemento flex">
+            <a href="#">
+                <img src="./img/icons8-menu-burger-white.png" alt="" class="navFirst__icon__burger">
+            </a>
+            <img src="./img/logoMarca.jpg" alt="Logo de Marca" class="navFirst__icon__Logotipo">
         </section>
-        <div class="boxSearch flex">
-            <input type="text" class="inputBusqueda" placeholder="Buscar Producto">
-            <button class="buttonSearch">X</button>
-        </div>
-        <section class="boxHeaderImages flex">
-            <img src="./img/iconsSearch.png" alt="" class="logoSearch">
+
+        <section>
+            <div class="navFirst__search flex">
+                <input type="text" class="navFirst__search__input" placeholder="Buscar Producto">
+                <button class="navFirst__search__button logic">X</button>
+            </div>
+            <section class="navFirst__loupe">
+                <img src="./img/iconsSearch.png" alt="" class="navFirst__image__loupe">
+            </section>
+
         </section>
 
     </header>
     
 
 
-    <div class="sectionHorarios flex">
+
+
+    <!-- SECCION HORARIOS -->
+
+    <!-- <div class="sectionHorarios flex">
         <section >
             <h3 class="titleHorarios" id="show">En este momento estamos cerrados</h3>
             <p class="textHorarios">Hacé click para consultar nuestros horarios</p>
         </section>
         <nav class="barraNavegacion">
             <section class="barraNavegacionItems">
-                <!-- logo casa - info - ubicación - instagram -->
+                <!-- logo casa - info - ubicación - instagram --
                  <a href="">Inicio</a>
                  <a href="">Información</a>
                  <a href="">ubicación</a>
@@ -47,7 +57,7 @@
         </nav>
         
         <script src="index.js"></script>
-    </div>
+    </div> -->
     <!-- <main>
         <div class="bannerBlack"></div>
         <section class="sectionChoiseOptions">
@@ -81,7 +91,7 @@
     </main> -->
 
 
-    <script src="./app.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
 
@@ -103,4 +113,7 @@ example
 .card__button--success,
 .card__button-back
 
+
+Lista de cositas pendientes
+barra de navegación especialmente en el botón.
 -->

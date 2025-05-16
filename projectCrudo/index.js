@@ -1,0 +1,44 @@
+// document.addEventListener('DOMContentLoaded', function() {
+//variables
+const loupe = document.querySelector('.navFirst__loupe');
+const barraNavFirst = document.querySelector('.navFirst__search');
+const closeNavFirst = document.querySelector('.navFirst__search__button');
+const search = document.querySelector('.navFirst__search__input');
+
+
+
+//Eventos
+loupe.addEventListener('click', cambiandoDisplay);
+closeNavFirst.addEventListener('click', funcionando);
+search.addEventListener('input', leerInput)
+
+//funciones
+
+//leemos el input de busqueda
+function leerInput(e) {
+    console.log(e.target.value)
+}
+
+function cambiandoDisplay() {
+    if (loupe.style.display = 'flex') {
+        barraNavFirst.style.display = 'flex';
+        loupe.style.display = 'none';
+    }
+}
+
+function funcionando() {
+    if (loupe.style.display === 'none') {
+        barraNavFirst.style.display = 'none';
+        loupe.style.display = 'flex'
+    }
+}
+
+
+
+
+
+
+
+
+
+// });
