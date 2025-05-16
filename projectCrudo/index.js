@@ -4,13 +4,15 @@ const loupe = document.querySelector('.navFirst__loupe');
 const barraNavFirst = document.querySelector('.navFirst__search');
 const closeNavFirst = document.querySelector('.navFirst__search__button');
 const search = document.querySelector('.navFirst__search__input');
-
-
+//barra lateral
+const navLateral = document.querySelector('.navSecond')
+const logoBurger = document.querySelector('.navFirst__icon__burger')
 
 //Eventos
 loupe.addEventListener('click', cambiandoDisplay);
 closeNavFirst.addEventListener('click', funcionando);
 search.addEventListener('input', leerInput)
+logoBurger.addEventListener('click', cambiarDisplayLateral)
 
 //funciones
 
@@ -33,6 +35,11 @@ function funcionando() {
     }
 }
 
+function cambiarDisplayLateral() {
+    if (navLateral.style.display = 'none') {
+        navLateral.style.display = 'flex'
+    }
+}
 
 
 
