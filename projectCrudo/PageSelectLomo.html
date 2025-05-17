@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kubic Burger</title>
-    <link rel="icon" href="./img/favicon.png" type="image/x-png">
+    <title>Kubic Burger | HOME SALE LOMOS</title>
+
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/normalize.css">
 </head>
 <body>
-   
     <!-- navegación sellado -->
     <header class="navFirst flex">
         <section class="navFirst__elemento flex">
@@ -24,6 +23,7 @@
                 <button class="navFirst__search__button logic">X</button>
             </div>
             <section class="navFirst__loupe">
+                <!-- imagen de carrito -->
                 <img src="./img/iconsSearch.png" alt="" class="navFirst__image__loupe">
             </section>
         </section>
@@ -72,42 +72,47 @@
 
 
 
-    <!-- SECCION HORARIOS -->
-    <section class="sectionSchedules flex" >
-        <div id="show"> 
-            <h3 class="sectionSchedules_title" id="show">😴En este momento estamos cerrados</h3>
-            <p class="sectionSchedules_paragraph">Hacé click para consultar nuestros horarios</p>
-        </div>
-    </section>
+    <!-- SECCION HORARIOS PAGE LOMOS NO TIENE-->
+    
     <!-- SECCION HORARIOS -->
     
     <main class="optionsSection  flex">
-        <div class="optionSection__CardSection flex">
 
-            <div id="contenedor-dinamico" ></div>
+        <div class="optionSection__CardSectionPageLomo flex">
+            <section class="flex">
+                <section>
+                    <a href="./index.html"><img src="./img/icons8-left-50.png" alt=""></a>
+                </section>
 
-            <h2 class="optionSection__title">Categorías</h2>
+                <h2 class="optionSection__title optionSection__title__Lomos">HOT SALE LOMOS</h2>
 
-            <div class="optionSection__cardFile flex">
-                <section class="optionSection__card">
-                    <a href="./PageSelectLomo.html" id="firstCard" data-url="./Lomos.html">
-                        <section class="optionSection__card__content flex">
-                            <h3 class="optionSection__card__title">HOT SALE LOMOS</h3>
-                            <p class="optionSection__card__paragraph">hasta 29% OFF</p>
+            </section>
+
+            <div class="pageSelectionLomo flex">
+
+                <section class="optionSection__card__pageLomo flex">
+                    
+                        <section>
+                            <a href="./pageBuyLomo.html">
+                            <img src="./img/2LomosCompletos.jpg" alt="" class="optionSection__imagePageLomo">
+                            </a>
                         </section>
-                    </a>
-                </section>
 
-                <section class="test4">
-                    <a href="HotSaleLomos.html">
-                                        
-                    </a>
-                </section>
+                        <section class="cardContent">
+                            <a href="./pageBuyLomo.html">
+                            <h3 class="titleLomo">2 LOMOS COMPLETOS</h3>
+                            <p class="priceLomo">$20.000</p>
+                            </a>
+                        </section>
 
-                <section class="test4">
-                    <a href="HotSaleLomos.html">
-                        <img src="." alt="">     
-                    </a>
+                        <section class="flecha flex">
+                            <a href="./pageBuyLomo.html">
+                            <section>
+                                <img src="./img/icons8-sort-right-24.png" alt="" class="optionSection__cardPageLomo__rightFlecha">
+                            </section>
+                            </a>
+                        </section>
+                    
                 </section>
             </div>
     
@@ -115,35 +120,6 @@
       
     </main>
 
-
     <script src="./index.js"></script>
 </body>
 </html>
-
-<!-- 
-
-sintaxis de BEM
-
-bloque
-
-bloque__elemento
-bloque__elemento--modificador
-
-example
-
-.card
-.card__image
-.card__description
-
-.card__button--success,
-.card__button-back
-
-
-Lista de cositas pendientes
-barra de navegación especialmente en el botón.
-animacion css en barra de navegación 
-
-Barra lateral: 
-falta agregar funcion para dejar de mostrar la barra al presionar el mismo boton que la acciona y falta sacar la barra si se hace click en otro contenedor que no sea la barra.
-
--->

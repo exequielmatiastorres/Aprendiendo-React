@@ -332,90 +332,121 @@ li {
 
 
 
-.box2 {
-    background-image: url(../img/burgerEnMano.jpg);
-    background-size: cover; 
+
+
+/* PAGINA LOMO */
+
+
+.optionSection__title__Lomos {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #615b5b;
 }
 
-.box3 {
-    background-image: url(../img/burgerSola.jpg);
-    background-size: cover; 
-}
+/* .pageSelectionLomo {
+    
+} */
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*Testeo ZONE*/
-
-
-.test1 {
-    height: 9rem;
-    width: 100%;
-    background-color: #000;
-    justify-content: center;
-}
-
-.test2 {
+.optionSection__CardSectionPageLomo {
     width: 60%;
-    min-height: 100vh;
-    background-color: #414f42;
+    min-height: 85.7vh;
+    background-color: #FFF;
     flex-direction: column;
     gap: 2rem;
 }
+/* aca */
 
-.test3{
-    text-align: justify;
-    color: wheat;
-    margin: 0px;
-    margin-left: 2rem;
+.pageSelectionLomo{ 
+
 }
 
-.test4 {
+.optionSection__card__pageLomo{ 
+    height: 9rem;
+    width: 33%;
+    border-radius: 1.2rem;
+    margin-left: 2rem;
+    justify-content: space-between;
     background-color: #ffd082;
-    width: 30%;
-    height: 10rem;
-    background-image: url(../img/Screenshot_1.png);
-    background-size: cover; 
-    border-radius: 1rem;
+}
+
+
+
+.optionSection__imagePageLomo {
+    width: 10rem;
+    height: 100%;
+    border-radius: 1.2rem 0rem 0rem 1.2rem;
+}
+
+
+
+.titleLomo {
+    margin: 0px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.priceLomo {
+    margin: 0px;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.cardContent {
+    
+    height: 100%;
+    margin: 0xp 1rem;
     
 }
 
-.test5 {
-    justify-content: space-around;
-}
-
-.testText1 {
-    margin: 0px;
-    color: #FFF;
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-top: 3rem;
-}
-
-.testText2 {
-    background-color: #8fe258;
-    width: 12rem;
-    border-radius: 1.2rem;
-    text-align: center;
-    color: #414f42;
-    font-size: 1.2rem;
-}
-
-
-.test6 {
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
+.flecha {
     align-items: center;
+}
+
+
+/*page Buy Lomo*/
+
+.pageBuyLomo {
+    justify-content: space-between;
+}
+
+.buttonMenos {
+    background-color: #ff7c7c;
+}
+
+.valorDeBotones {
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+}
+
+.buttonMas {
+    background-color: #c90000;
+}
+
+
+.buttonInput{
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.buttonAgregar {
+    
+}
+
+.buttonAdd {
+    width: 30rem;
+    height: 4rem;
+    margin-right: 2rem;
+    background-color: #ffd082;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.price {
+    padding-left: 13rem;
 }
