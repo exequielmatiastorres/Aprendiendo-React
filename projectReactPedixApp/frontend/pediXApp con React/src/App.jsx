@@ -1,4 +1,5 @@
 import CardCategoria from "./components/CardCategoria"
+import Header from './layout/Header'
 
 
 
@@ -7,17 +8,8 @@ function App() {
   
   return (
     <>
-      
-      <div className="grid grid-cols-3">
-      
-        <CardCategoria name={"Hamburguesa"} imageUrl={"./assets/images/burgerSola.jpg"}/>
-        
-        <CardCategoria name={"Lomos"} imageUrl={"./assets/images/burgerSola.jpg"}/>
-        
-        <CardCategoria name={"Sandwich de Milanesa"} imageUrl={"./assets/images/burgerSola.jpg"}/>
-      
-      </div>
-      
+      <Header />
+
     </>
   )
 }
@@ -38,5 +30,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
       </Routes>
 
     </BrowserRouter>
+
+
 
 */
