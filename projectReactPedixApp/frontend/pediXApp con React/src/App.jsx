@@ -1,14 +1,42 @@
-import { useState } from 'react'
+import CardCategoria from "./components/CardCategoria"
 
-import './App.css'
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
+      
+      <div className="grid grid-cols-3">
+      
+        <CardCategoria name={"Hamburguesa"} imageUrl={"./assets/images/burgerSola.jpg"}/>
+        
+        <CardCategoria name={"Lomos"} imageUrl={"./assets/images/burgerSola.jpg"}/>
+        
+        <CardCategoria name={"Sandwich de Milanesa"} imageUrl={"./assets/images/burgerSola.jpg"}/>
+      
+      </div>
+      
     </>
   )
 }
 
-export default App
+export default App;
+
+
+/*
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+<BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Principal />}>
+
+        </Route>
+
+      </Routes>
+
+    </BrowserRouter>
+
+*/
