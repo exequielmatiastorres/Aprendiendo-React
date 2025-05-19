@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'burger-sola':"url(./assets/images/burgerSola.jpg)"
+      }
+    },
   },
   plugins: [],
 }

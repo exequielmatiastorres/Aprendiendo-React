@@ -1,17 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logoBurger from '../assets/images/menu-burger.png'
-import logoMarca from '../assets/images/logoMarca.jpg'
-import lupa from '../assets/images/iconsSearch.png'
+import ContainerCards from '../components/ContainerCardCategoria'
+import CardCategoria from '../components/CardItemCategoria'
+//images
+import logoBurger from '../images/menu-burger.png'
+import logoMarca from '../images/logoMarca.jpg'
+import lupa from '../images/iconsSearch.png'
+
+
 
 function Header() {
+  // url kubic-burger
+
+
   return (
     <>
-      <header>
-
+      <header> 
         <section className='max-w-screen h-14 bg-[#c90000] flex justify-between items-center pl-6'>
           <section className='flex items-center'>
-
             <div className='overflow-hidden'>
               <img src={logoBurger} alt="menu Hamburguesa" className='w-10' />
             </div>
@@ -32,12 +38,18 @@ function Header() {
             <p className='text-center text-base text-[#21243d]'>Hacé click para consultar nuestros horarios</p>
           </div>
         </section>
-
         <section className='bg-[#000] max-w-screen h-28'>
-
         </section>
-
       </header>
+
+
+
+
+      
+
+      
+
+      
     </>
   )
 }
@@ -47,7 +59,7 @@ export default Header;
 
 /*rompecabezas: 
 
-<div className="grid grid-cols-3">
+
       
         <CardCategoria name={"Hamburguesa"} imageUrl={"./assets/images/burgerSola.jpg"}/>
         
