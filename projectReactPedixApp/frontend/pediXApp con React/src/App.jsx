@@ -4,9 +4,9 @@ import TestPadre from './components/TestPadre';
 import TestHijo from './components/TestHijo';
 import { StrictMode } from 'react';
 import { Link } from 'react-router-dom';
+import CardItem from './components/CardItemaComprar';
 
 //importamos imagenes
-import burger from './images/burgerSola.jpg'
 import CardItemCategoria from './components/CardItemCategoria';
 
 function App() {
@@ -14,8 +14,10 @@ function App() {
   return (
     <>
       <Header />
-      <ContainerCardCategoria/>
-      {/* <CardItemCategoria name={"Hamburguesa"} imagenUrl={burger}/> */}
+      {/* <ContainerCardCategoria/> */}
+      <CardItem name={"Lomo Simple"} price={"15.000"}/>
+      <CardItem name={"Lomo Simple"} price={"15.000"}/>
+      
     </>
   )
 }
