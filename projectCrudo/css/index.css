@@ -3,6 +3,7 @@
     --e-global-color-secondary: #ffd082;
     --e-global-color-third: #000;
     --botonDialog:#dc3545;
+    --colorExtra: #21243d;
 }
 /*GLOBALES*/
 html {
@@ -58,10 +59,12 @@ li {
 
 .navFirst {
     min-height: 5.5rem;
-    max-width: 100%;
+    max-width: 100vw;
     background-color: var(--e-global-color-primary);
     justify-content: space-between;
     align-items: center;
+    
+    
 }
 
 .navFirst__elemento {
@@ -69,6 +72,7 @@ li {
     padding-left: 2rem;
     align-items: center;
     gap: 1rem;
+    
 }
 
 .navFirst__icon__burger {
@@ -108,6 +112,7 @@ li {
     position: absolute;
     margin-right: 1rem;
     background-color: #FFF;
+    
 }
 
 .navFirst__loupe {
@@ -130,6 +135,7 @@ li {
     justify-content: space-between;
     background-color:  #000;
     display: none;
+    
 }
 
 .navSecond__list {
@@ -191,6 +197,7 @@ li {
     background-color: var(--e-global-color-secondary);
     flex-direction: column;
     justify-content: center;
+
 }
 
 .sectionSchedules_title {
@@ -260,193 +267,56 @@ li {
 }
 
 
-
-
-
-
-/* options section */
-
-
-.optionsSection {
+.bannerBlack {
     height: 9rem;
     width: 100%;
     background-color: #000;
     justify-content: center;
 }
 
-.optionSection__CardSection {
-    width: 60%;
-    min-height: 100vh;
-    background-color: #414f42;
-    flex-direction: column;
-    gap: 2rem;
-}
 
-.optionSection__title{
-    text-align: justify;
-    color: wheat;
-    margin: 0px;
-    margin-left: 2rem;
-}
 
-.optionSection__cardFile {
-    justify-content: space-around;
-}
 
-.optionSection__card {
-    background-color: #ffd082;
-    width: 30%;
-    height: 10rem;
-    background-image: url(../img/Screenshot_1.png);
-    background-size: cover; 
-    border-radius: 1rem;
-    
-}
 
-.optionSection__card__content {
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
+/* sección categorias */
+
+.test111 {
+    width: 100vw;
     justify-content: center;
-    align-items: center;
 }
 
-
-.optionSection__card__title {
-    margin: 0px;
-    color: #FFF;
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-top: 3rem;
-}
-
-.optionSection__card__paragraph {
-    background-color: #8fe258;
-    width: 12rem;
-    border-radius: 1.2rem;
-    text-align: center;
-    color: #414f42;
-    font-size: 1.2rem;
-}
-
-
-
-
-
-/* PAGINA LOMO */
-
-
-.optionSection__title__Lomos {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #615b5b;
-}
-
-/* .pageSelectionLomo {
+.titleCategoria {
+    width: 100%;
+    justify-content: center;
+    margin-top: -7rem;
     
-} */
+}
 
-.optionSection__CardSectionPageLomo {
+.categoria__container__title {
+    background-color: cadetblue;
+    height: 4.5rem;
     width: 60%;
-    min-height: 85.7vh;
-    background-color: #FFF;
-    flex-direction: column;
-    gap: 2rem;
-}
-/* aca */
-
-.pageSelectionLomo{ 
-
 }
 
-.optionSection__card__pageLomo{ 
-    height: 9rem;
-    width: 33%;
-    border-radius: 1.2rem;
-    margin-left: 2rem;
-    justify-content: space-between;
-    background-color: #ffd082;
-}
-
-
-
-.optionSection__imagePageLomo {
-    width: 10rem;
-    height: 100%;
-    border-radius: 1.2rem 0rem 0rem 1.2rem;
-}
-
-
-
-.titleLomo {
-    margin: 0px;
+.title__menu__categoria{
+    color: #898989;
+    margin: 0;
     font-weight: bold;
-    font-size: 1.5rem;
-    margin-top: 1rem;
-}
-
-.priceLomo {
-    margin: 0px;
-    font-size: 2.2rem;
-    font-weight: bold;
-}
-
-.cardContent {
-    
-    height: 100%;
-    margin: 0xp 1rem;
+    font-size: 2.5rem;
+    letter-spacing: -0.1rem;
+    text-align: start;
     
 }
 
-.flecha {
-    align-items: center;
-}
+/**/
 
 
-/*page Buy Lomo*/
-
-.pageBuyLomo {
-    justify-content: space-between;
-}
-
-.buttonMenos {
-    background-color: #ff7c7c;
-}
-
-.valorDeBotones {
-    width: 4rem;
-    height: 4rem;
-    text-align: center;
-}
-
-.buttonMas {
-    background-color: #c90000;
-}
 
 
-.buttonInput{
-    border: none;
-    width: 4rem;
-    height: 4rem;
-    color: #FFF;
-    cursor: pointer;
-}
 
-.buttonAgregar {
-    
-}
 
-.buttonAdd {
-    width: 30rem;
-    height: 4rem;
-    margin-right: 2rem;
-    background-color: #ffd082;
-    border: none;
-    border-radius: 1rem;
-    cursor: pointer;
-}
 
-.price {
-    padding-left: 13rem;
-}
+
+
+
+

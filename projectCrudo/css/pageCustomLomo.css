@@ -1,0 +1,106 @@
+:root {
+    --e-global-color-primary: #c90000;
+    --e-global-color-secondary: #ffd082;
+    --e-global-color-third: #000;
+    --botonDialog:#dc3545;
+    --colorExtra: #21243d;
+}
+/*GLOBALES*/
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    padding: 0px;
+    margin: 0px;
+    background-color: darkgrey;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3 {
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+h1 {
+    font-size: 3.8rem;
+}
+h2 {
+    font-size: 3.4rem;
+}
+h3 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 2.6rem;
+}
+.flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+
+/*page Buy Lomo*/
+
+.pageBuyLomo {
+    justify-content: space-between;
+}
+
+.buttonMenos {
+    background-color: #ff7c7c;
+}
+
+.valorDeBotones {
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+}
+
+.buttonMas {
+    background-color: #c90000;
+}
+
+
+.buttonInput{
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.buttonAgregar {
+    
+}
+
+.buttonAdd {
+    width: 30rem;
+    height: 4rem;
+    margin-right: 2rem;
+    background-color: #ffd082;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.price {
+    padding-left: 13rem;
+}
+
+

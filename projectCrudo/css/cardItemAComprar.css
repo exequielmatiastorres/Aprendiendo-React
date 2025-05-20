@@ -1,0 +1,54 @@
+
+.anclaje {
+    background-color: #ffd082;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.cardElementBuy {
+    width: 60%;
+    background-color: #414f42;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardElementBuy__Card1 {
+    max-width: 33%;
+    background-color: brown;
+    display: flex;
+    
+}
+
+.cardElementBuy__Card2 {
+    overflow: hidden;
+    min-width: 30rem;
+    max-height: 12rem;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1.2rem;
+    
+}
+
+.cardElementBuy__title {
+    font-size: 2rem;
+    color: #000;
+
+}
+
+.cardElementBuy__Price {
+    color: #000;
+    font-size: 2rem;
+}
+
+.test4 {
+    display: flex;
+    align-items: center;
+}
+
+.imageTest {
+    width: 12rem;
+    height: 100%;
+    object-fit: cover;
+}

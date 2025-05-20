@@ -1,0 +1,56 @@
+.testCustom {
+    width: 100%;
+    justify-content: center;
+}
+
+.content {
+    background-color: #FFF;
+    max-width: 40%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.test1 {
+    display: flex;
+    justify-content: center;
+}
+
+.test1_text {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
+
+.test20 {
+    position: fixed;
+    bottom: 0;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+    /* ver estas propiedades */
+    width: 56.7rem;
+    height: 5rem;
+
+}
+
+.testBotones {
+    background-color: coral;
+    height: 3rem;
+}
+
+.testAgregar {
+    background-color: dimgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.titleAdd {
+    margin: 0px;
+    padding: 0px;
+}
+
+.priceProduct {
+    margin: 0px;
+    padding: 0px;
+}
